@@ -47,10 +47,13 @@ const App = () => {
         <DeviceThermostatIcon />
         <div>{weatherdata(new Date())}</div>
       </div>
+      <div>city</div>
+      <div>clouds</div>
       <h1>{temperature}</h1>
     </div>
   );
 };
+
 
 export default App;
 //checling commits rththrth
